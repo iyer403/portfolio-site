@@ -1,15 +1,14 @@
-$font-family-sans-serif: "Open Sans", sans-serif;
+$font-family-sans-serif: "Poppins", sans-serif;
 
-$primary: #c167ef;
-$secondary: #10bcee;
-$dark: #2b3041;
-$light: #f3f6f9;
 
-$navbar-padding-y: 1rem;
-$navbar-dark-color: #fff;
-$navbar-dark-hover-color: $secondary;
+$primary: #cc005f;
+$secondary: #990047;
+$light: #f4f4f4;
+$dark:#000;
 
-$button-radius: 50px;
+
+
+$button-radius: 0;
 $button-padding-x: 30px;
 $button-padding-y: 10px;
 
@@ -48,6 +47,12 @@ $spacers: (
 
 $line-height-base : 1.7;
 $headings-margin-bottom : $spacer * 1;
-$enable-negative-margins: true;
+
+$headings-font-weight:bold;
+
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y : 1rem;
+$navbar-dark-color: #fff;
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

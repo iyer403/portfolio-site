@@ -1,17 +1,19 @@
-function useScroll() {
 
-  const navbar = document.querySelector ('.navbar');
-  window.addEventListener ('scroll', () => {
-    if(window.scrollY > 50) {
-      navbar.classList.add('bg-dark');
-        navbar.classList.add('navbar-sticky');
-    } else{
-      navbar.classList.remove('bg-dark');
-      navbar.classList.remove("navbar-sticky");
-      
-    }
-  })
+function runTypingEffect() {
+const text ='I am Shekhar Iyer.';
+const typingElement = document.getElementById('typing-text');
+const typingDelay = 100;
+
+typeText(text,typingElement, typingDelay);
 
 }
 
-document.addEventListener ('DOMContentLoaded', useScroll)
+function typeText(text, typingElement, delay) {
+for(let i=0 ; i<text.length; i++) {
+setTimeout(()=>{
+typingElement.textContent += text.charAt(i); 
+}, delay * i);
+}
+}
+
+document.addEventListener('DOMContentLoaded', runTypingEffect);

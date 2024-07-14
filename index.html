@@ -3,485 +3,445 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="images/favicon.png" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Ebook Site Example</title>
+    <title>Corporate Site Example</title>
   </head>
+  
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="/images/logo.png" width="225" alt="" />
-        </a>
-        <button
-          type="button"
-          data-bs-toggle="toggle"
-          data-bs-target="#navbarNavDropdown"
-          class="navbar-toggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarNavDropdown" class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link fw-semibold" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#details">Details</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="btn btn-outline-light px-4 mx-4 fw-semibold"
-                href="contact.html"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--header-->
-    <header class="header">
-      <!--hero-->
-      <div class="hero text-white pt-7">
-        <div class="container-xl">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="image-container mb-5 px-4">
-                <img src="images/header-ebook.png" class="img-fluid" alt="" />
-              </div>
+    <header class="vh-100 text-center header position-relative">
+      <div class="text-container position-relative flex-column d-flex justify-content-center align-items-center h-100">
+        <h5 class="text-primary fs-3 fw-bold text-uppercase">
+          Hello,World
+        </h5>
+        <h1 class="display-1 fw-bold text-white" id= "typing-text"></h1>
+        <p class="roles text-uppercase text-white fs-4">
+          <span>Full Stack Web Developer |</span>
+          <span>Online Educator</span>
+        </p>
+        <a class="btn btn-outline-light btn-lg mt-3" href="#about">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
             </div>
-            <div class="col-md-6">
-              <div
-                class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
-              >
-                <h1 class="display-3 fw-bold">Welcome to Blog Mastery</h1>
-                <p class="lead">
-                  Are you ready to take your blogging journey to new heights?
-                  Blog mastery is your ultimate guide to creating and managing a
-                  successful blog that captivates your adueince and drives
-                  engagement.
-                </p>
-                <div class="form-container text-center">
-                  <form action="">
-                    <div class="my-4">
-                      <input
-                        class="form-control form-control-lg rounded-5"
-                        type="email"
-                        placeholder="Email Address"
-                      />
-                    </div>
-                    <div class="d-grid">
-                      <button class="btn btn-lg btn-primary text-white">
-                        Free Download
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
+            <div class="text-start">
+              <span>More About Me</span>
             </div>
           </div>
+        </a>
+        <div class="social d-flex gap-3 position-absolute">
+          <a href="#">
+            <i class="fab fa-twitter fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-youtube fa-3x text-white"></i>
+          </a>
+             <a href="#">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
         </div>
       </div>
-      <svg
-        class="frame-decoration"
-        data-name="Layer 2"
-        xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="none"
-        viewBox="0 0 1920 192.275"
-      >
-        <defs>
-          <style>
-            .cls-1 {
-              fill: #f3f6f9;
-            }
-          </style>
-        </defs>
-        <title>frame-decoration</title>
-        <path
-          class="cls-1"
-          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
-          transform="translate(0 -158.755)"
-        />
-      </svg>
     </header>
 
-    <section class="icons bg-light pb-5">
-      <div class="container-xl">
-        <div class="row hstack g-4">
-          <div class="col-md-4 d-flex gap-4">
-            <i class="fas fa-user fa-3x text-primary"></i>
-            <div>
-              <h5 class="fw-bold">Your blogging potential</h5>
-              <p class="text-muted">
-                Discover the key to unleash your true blogging potential. Our
-                ebook provides expert guidance on creating compelling content.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex gap-4">
-            <i class="fas fa-rocket fa-3x text-secondary"></i>
-            <div>
-              <h5 class="fw-bold">Skyrocket Your Blog's Success</h5>
-              <p class="text-muted">
-                Take your blog to new heights with our proven strategies for
-                driving traffic and increasing your blog's visibility.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex gap-4">
-            <i class="fas fa-dollar fa-3x text-primary"></i>
-            <div>
-              <h5 class="fw-bold">Monetize Your Blog</h5>
-              <p class="text-muted">
-                Turn your passion for blogging into a profitable venture. Our
-                ebook reveals tried-and-tested monetization strategies.
-              </p>
-            </div>
-          </div>
+    <section class="about bg-light py-5" id="about">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold text-primary ">
+About Me
+          </h4>
+          <hr class="w-25 mx-auto"/>
+          <h2 class="mb-4">Let me introduce myself.</h2>
+        </div>
+        <div class="d-flex about-content gap-5 align-items-center h-100">
+          <img class="about-img img-fluid rounded-circle" src="images/brad.jpg" alt=""/>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, consequatur iste. Placeat quos, expedita ipsum odit fugiat, modi, soluta est eius quidem libero voluptas repudiandae id. Consectetur dolore aliquid vero perferendis ea assumenda repellat, totam ad tempore praesentium modi nam officiis laudantium a omnis voluptatum perspiciatis quibusdam non aperiam officia asperiores soluta. Vel error minima esse corrupti velit eligendi rerum illo sit, expedita eveniet enim porro quod blanditiis voluptates sed quia atque officia dolorem molestiae ad.</p>
         </div>
       </div>
     </section>
 
-    <!--Details-->
-
-    <section id="details" class="details my-5">
+    <section class="profile my-6">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <div
-              class="text-container d-flex h-100 flex-column justify-content-center"
-            >
-              <h2 class="display-6">Unlock your blogging potential</h2>
-              <p>
-                Are you ready to unleash your true blogging potentail? Our
-                ebook, "Blog Mastery," provides you with the tools and knowledge
-                to take your blog to the next level.
-              </p>
-              <ul class="list-group list-group-flush lh-lg">
-                <li class="list-group-item">
-                  <i class="fas fa-square text-primary"></i>
-                  <strong>Unleash Your Creativity: </strong> Our ebook empowers
-                  you to unleash your creativity and express your unique voice
-                  through your blog.
-                </li>
-                <li class="list-group-item">
-                  <i class="fas fa-square text-primary"></i>
-                  <strong>Maximize your reach: </strong> Learn how to optimize
-                  your blog for search engines.
-                </li>
-                <li class="list-group-item">
-                  <i class="fas fa-square text-primary"></i>
-                  <strong>Monetization strategies: </strong> Discover various
-                  monetization strategies, such as sponsored content & affiliate
-                  marketing.
-                </li>
-              </ul>
-              <a
-                class="btn btn-primary text-white mt-4 align-self-start"
-                data-bs-toggle="modal"
-                data-bs-target="#modal1"
-                href=""
-                >Get Your Copy Now</a
-              >
-            </div>
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold">Profile</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti numquam iure, repellat a fuga nisi. Aut nam temporibus perspiciatis.</p>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item mb-3 ">
+              <h5 class="text-transform">
+                <i class="fas fa-user text-primary "></i>Full Name:
+              </h5>
+              <p>Brad Traversy</p>
+            </li>
+            <li class="list-group-item mb-3 ">
+              <h5 class="text-transform">
+                <i class="fas fa-calendar text-primary "></i>Birth Date:
+              </h5>
+              <p>June 9, 1981</p>
+            </li>
+               <li class="list-group-item mb-3 ">
+              <h5 class="text-transform">
+                <i class="fas fa-building text-primary "></i>Current Position:
+              </h5>
+              <p>Freelancer</p>
+            </li>
+             </li>
+               <li class="list-group-item mb-3 ">
+              <h5 class="text-transform">
+                <i class="fas fa-home text-primary "></i>Website:
+              </h5>
+              <p>madhatmarketing.com</p>
+            </li>
+             <li class="list-group-item mb-3 ">
+              <h5 class="text-transform">
+                <i class="fas fa-envelope text-primary "></i>Email:
+              </h5>
+              <p>support@madhatmarketing.com</p>
+            </li>
+          </ul>
           </div>
-          <div class="col-lg-6">
-            <div class="image-container p-5">
-              <img class="img-fluid" src="images/description.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          
+       
 
-    <!--MOdal1-->
-
-    <div id="modal1" fade class="modal">
-      <div class="modal-dialog modal-lg mt-7">
-        <div class="modal-content p-5">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="image-container">
-                <img src="images/description.png" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="text-container">
-                <h2 class="display-6">Unlock your blogging potential</h2>
-                <p>
-                  Are you ready to unleash your true blogging potentail? Our
-                  ebook, "Blog Mastery," provides you with the tools and
-                  knowledge to take your blog to the next level.
-                </p>
-                <ul class="list-group list-group-flush lh-lg">
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Unleash Your Creativity: </strong> Our ebook
-                    empowers you to unleash your creativity and express your
-                    unique voice through your blog.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Maximize your reach: </strong> Learn how to optimize
-                    your blog for search engines.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Monetization strategies: </strong> Discover various
-                    monetization strategies, such as sponsored content &
-                    affiliate marketing.
-                  </li>
-                </ul>
-                <a class="btn btn-primary text-white" href="">Free Download</a>
-                <button data-bs-dismiss="modal" class="btn btn-light">
-                  Close
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--statement-->
-    <section class="statement mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="text-container bg-light p-5 rounded-5">
-              <h2>Master the art of blogging excellence</h2>
-              <p>
-                Transform your blog from a mere hobby to a thriving online
-                business with our ebook, "Blog Mastery: Monetize Your Passion."
-                This invaluable resource is your roadmap to turning your blog
-                into a profitable venture. Learn how to monetize your content
-                through various strategies such as sponsored posts, affiliate
-                marketing, and product creation. Gain insights into building a
-                strong brand, attracting lucrative partnerships, and maximizing
-                your earning potential. Take the leap and unlock the financial
-                rewards of your blogging journey.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--details2-->
-    <section class="details my-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-<div class="image-container p-5">
-<img class="img-fluid" src="images/author.png" alt="">
+        <div class="col-md-6">
+          <h3 class="text-uppercase fw-bold">Skills</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed nesciunt voluptate dolorum, alias iste?</p>
+          <h5><i class ="fas fa-check"></i>HTML 5</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="100" ariavaluemin ="0"
+aria-valuemax="100">
+<div class ="progress-bar"style ="width: 100%">100%</div>
 </div>
-          </div>
-          <div class="col-lg-6">
-             
-            <div
-              class="text-container d-flex h-100 flex-column justify-content-center"
-            >
-              <h2 class="display-6">Craft Remarkable Content</h2>
-              <p>
-                Discover techniques for effective storytelling, engaging visuals, and compelling calls-to-action. Unlock
-the secrets of creating a consistent and authentic brand voice that sets you apart from the
-competition. 
-              </p>
-              <ul class="list-group list-group-flush lh-lg">
-                <li class="list-group-item">
-                  <i class="fas fa-square text-primary"></i>
-                  <strong>Embrace your unique voice: </strong> Learn how to harness the power of your unique voice.
-                </li>
-                <li class="list-group-item">
-                  <i class="fas fa-square text-primary"></i>
-                  <strong>Spark creativity: </strong> Explore techniques to spark creativity and overcome writer's block.
-                </li>
-                <li class="list-group-item">
-                  <i class="fas fa-square text-primary"></i>
-                  <strong>Engage your Readers: </strong> Discover strategies for
-                  creating content that engages your readers on a deeper level.
-                </li>
-              </ul>
-              <a
-                class="btn btn-primary text-white mt-4 align-self-start"
-                data-bs-toggle="modal"
-                data-bs-target="#modal2"
-                href=""
-                >Learn More</a
-              >
+<h5><i class ="fas fa-check"></i>CSS</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="90" ariavaluemin ="0"
+aria-valuemax="100">
+<div class ="progress-bar"style ="width: 90%">90%</div>
+
+</div>
+ <h5><i class ="fas fa-check"></i>Javascript</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="90" ariavaluemin ="0"
+aria-valuemax="90">
+<div class ="progress-bar"style ="width: 90%">90%</div>
+</div>
+ <h5><i class ="fas fa-check"></i>Bootstrap</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="100" ariavaluemin ="0"
+aria-valuemax="100">
+<div class ="progress-bar"style ="width: 100%">100%</div>
+</div>
+
+ <h5><i class ="fas fa-check"></i>PHP</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="70" ariavaluemin ="0"
+aria-valuemax="100">
+<div class ="progress-bar"style ="width: 70%">70%</div>
+</div>
+ <h5><i class ="fas fa-check"></i>Python</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="75" ariavaluemin ="0"
+aria-valuemax="100">
+<div class ="progress-bar"style ="width: 75%">75%</div>
+</div>
+
+ <h5><i class ="fas fa-check"></i>UI/UX</h5>
+          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="65" ariavaluemin ="65"
+aria-valuemax="100">
+<div class ="progress-bar"style ="width: 65%">65%</div>
+</div>
+
+        </div>
         
+         </div>
+         <div class="row mt-5 text-center">
+<div class="col-12">
+  <a class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 mt-2" href="">hire me now</a>
+  <a class="btn btn-dark btn-lg text-uppercase px-5 mx-3 mt-2" href="">hire me now</a>
+
+</div>
+
+         </div>
       </div>
     </section>
 
-     <div id="modal2" fade class="modal">
-      <div class="modal-dialog modal-lg mt-7">
-        <div class="modal-content p-5">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="image-container">
-                <img src="images/author.png" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="text-container">
-                <h2 class="display-6">Craft Remarkable Content</h2>
-                <p>
-                  Discover techniques for effective storytelling, engaging visuals, and compelling calls-to-action. Unlock
-the secrets of creating a consistent and authentic brand voice that sets you apart from the
-competition. 
-                </p>
-                <ul class="list-group list-group-flush lh-lg">
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Unleash Your Creativity: </strong> Our ebook
-                    empowers you to unleash your creativity and express your
-                    unique voice through your blog.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Maximize your reach: </strong> Learn how to optimize
-                    your blog for search engines.
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fas fa-square text-primary"></i>
-                    <strong>Monetization strategies: </strong> Discover various
-                    monetization strategies, such as sponsored content &
-                    affiliate marketing.
-                  </li>
-                </ul>
-                <a class="btn btn-primary text-white" href="">Free Download</a>
-                <button data-bs-dismiss="modal" class="btn btn-light">
-                  Close
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!--testimonial-->
+<section class ="portfolio py-5 bg-light">
+<div class ="container">
+<div class = "text-center mb-5">
+<h4 class ="text-uppercase fw-bold text-primary">Portfolio</h4>
 
-    <section class ="testimonials mb-8">
-<div class="container">
+<hr class="w-25 mx-auto"/>
+<h2 class ="mb-4">Check Out My Work</h2>
+<p class ="lead">Here is a small sample of my projects </p>
+</div>
+<div class="row">
+<div class="col-md-6 mb-4">
+  <div class="project  shadow-lg rounded-5">
+    <a data-title ="Clipboard Landing Page" data-lightbox ="images" href="images/project1.jpg">
+      <img class="img-fluid rounded-3" src="images/project1.jpg" alt="">
+    </a>
+  </div>
+
+</div>
+<div class="col-md-6 mb-4">
+  <div class="project  shadow-lg rounded-5">
+    <a data-title ="Loop Studios Website" data-lightbox ="images" href="images/project2.jpg">
+      <img class="img-fluid rounded-3" src="images/project2.jpg" alt="">
+    </a>
+  </div>
+
+</div>
+<div class="col-md-6 mb-4">
+  <div class="project  shadow-lg rounded-5">
+    <a data-title ="Shortly Website" data-lightbox ="images" href="images/project3.jpg">
+      <img class="img-fluid rounded-3" src="images/project3.jpg" alt="">
+    </a>
+  </div>
+
+</div>
+<div class="col-md-6 mb-4">
+  <div class="project shadow-lg rounded-5">
+    <a data-title ="Flyo Website" data-lightbox ="images" href="images/project4.jpg">
+      <img class="img-fluid rounded-3" src="images/project4.jpg" alt="">
+    </a>
+  </div>
+
+</div>
+<div class="col-md-6 mb-4">
+  <div class="project shadow-lg rounded-5">
+    <a data-title ="Bookmark Website" data-lightbox ="images" href="images/project5.jpg">
+      <img class="img-fluid rounded-3" src="images/project5.jpg" alt="">
+    </a>
+  </div>
+
+</div>
+<div class="col-md-6 mb-4">
+  <div class="project shadow-lg rounded-5">
+    <a data-title ="Grid Layout" data-lightbox ="images" href="images/project6.jpg">
+      <img class="img-fluid rounded-3" src="images/project6.jpg" alt="">
+    </a>
+  </div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class= "styleshout text-bg-dark bg-gradient p-6 text-center">
+<div class ="container">
 <div class ="row">
-<div class ="col-md-4 text-center">
-<img src= "https://randomuser.me/api/portraits/men/32.jpg" alt="" class = "rounded-circle mb-3"/>
-<p class = "lead fst-italic">
-"I can't recommend this ebook enough. It's a treasure of blogging wisdom. It helped me unlock my creativity, connect with my audience, and achieve remarkable results."
+<div class ="col-12">
+<h1> Shoutout to StyleShout</h1>
+<hr class = "w-25 mx-auto"/>
+<p class ="lead mb-5">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quo exercitationem rem id necessitatibus dolorum ipsum nihil delectus? Corporis, sint.
 </p>
-<p class="fw-bold">Kenny Smith - Portland,ME</p>
+<a target="_blank" class="btn btn-primary btn-lg text-uppercase px-5 mx-4 my-2" href="https://www.madhatmarketing.com">Visit Site</a>
+
 </div>
-<div class ="col-md-4 text-center">
-<img src= "https://randomuser.me/api/portraits/men/31.jpg" alt="" class = "rounded-circle mb-3"/>
-<p class = "lead fst-italic">
-"This ebook completely transformed my blogging journey. The practical strategies and valuable insights helped me take my blog to new heights. I highly recommend it!"
-</p>
-<p class="fw-bold">Henry White - Portland,ME</p>
 </div>
-<div class ="col-md-4 text-center">
-<img src= "https://randomuser.me/api/portraits/women/32.jpg" alt="" class = "rounded-circle mb-3"/>
-<p class = "lead fst-italic">
-"I'm so greateful for this book! It provided me with the guidance and inspiration I needed to create engaging content and build a loyal readership. It's a game-changer. "
-</p>
-<p class="fw-bold">Laurie Mitchell - Miami,FL</p>
+</div>
+</section>
+
+<section class ="services text-bg-dark py-5 position-relative">
+<div class ="container">
+
+<div class ="text-center mb-5">
+<h4 class ="text-uppercase fw-bold text-primary">
+Services
+</h4>
+<hr class = "w-25 mx-auto"/>
+<h2 class ="mb-4"> What Can I Do For You> </h2>
+<p class ="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, exercitationem labore amet unde est? </p>
+
+</div>
+
+<div class ="row">
+<div class="col-md-4 text-center">
+
+  <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+  <h3 class="fs-3">Web Design</h3>
+  <hr class="w-25 mx-auto"/>
+  <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque, fuga repellendus dolorem recusandae inventore beatae quia rem animi eos!</p>
+</div>
+
+<div class="col-md-4 text-center">
+
+  <i class="fas fa-code fa-3x text-primary mb-3"></i>
+  <h3 class="fs-3">Web Development</h3>
+  <hr class="w-25 mx-auto"/>
+  <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque, fuga repellendus dolorem recusandae inventore beatae quia rem animi eos!</p>
+</div>
+<div class="col-md-4 text-center">
+
+  <i class="fas fa-shopping-cart fa-3x text-primary mb-3"></i>
+  <h3 class="fs-3">Advertising & SEO</h3>
+  <hr class="w-25 mx-auto"/>
+  <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque, fuga repellendus dolorem recusandae inventore beatae quia rem animi eos!</p>
+</div>
+</div>
+
+
+
+</div>
+
+</section>
+
+<section class="stats py-5 text-bg-secondary">
+<div class ="container">
+<div class ="row g-0">
+
+<div class = "col-md-4 col-lg-2">
+<div class ="stat text-center border-end border-dark">
+<i class = "fas fa-users fa-3x mb-3"></i>
+<p class ="fs-1">500+</p>
+<h3 class = "fs-6 text-uppercase">Clients</h3>
+
+</div>
+</div>
+<div class = "col-md-4 col-lg-2">
+<div class ="stat text-center border-end border-dark">
+<i class = "fas fa-project-diagram fa-3x mb-3"></i>
+<p class ="fs-1">700+</p>
+<h3 class = "fs-6 text-uppercase">Project</h3>
+
+</div>
+</div>
+<div class = "col-md-4 col-lg-2">
+<div class ="stat text-center border-end border-dark">
+<i class = "fas fa-clock fa-3x mb-3"></i>
+<p class ="fs-1">16+</p>
+<h3 class = "fs-6 text-uppercase">Years</h3>
+
+</div>
+</div>
+<div class = "col-md-4 col-lg-2">
+<div class ="stat text-center border-end border-dark">
+<i class = "fas fa-book fa-3x mb-3"></i>
+<p class ="fs-1">25+</p>
+<h3 class = "fs-6 text-uppercase">Publications</h3>
+
+</div>
+</div>
+<div class = "col-md-4 col-lg-2">
+<div class ="stat text-center border-end border-dark">
+<i class = "fas fa-youtube fa-3x mb-3"></i>
+<p class ="fs-1">2.06M+</p>
+<h3 class = "fs-6 text-uppercase">Subscribers</h3>
+
+</div>
+</div>
+<div class = "col-md-4 col-lg-2">
+<div class ="stat text-center border-end border-dark">
+<i class = "fas fa-graduation-cap fa-3x mb-3"></i>
+<p class ="fs-1">1m+</p>
+<h3 class = "fs-6 text-uppercase">Students</h3>
+
+</div>
 </div>
 
 </div>
 </div>
 </section>
 
- <!--Download section-->
+<section class="contact text-bg-dark bg-gradient py-5">
+<div class ="container">
+<div class ="row">
+<div class= "col-md-8 offset-md-2">
+<div class ="text-center mb-5">
+<h4 class ="text-uppercase fw-bold text-primary">Contact</h4>
+<hr class ="w-25 mx-auto"/>
+<h2 class ="mb-4">I'd love to hear from you.</h2>
+<p class ="lead">
+If you have any questions or would like to work together, please contact me
+with the form below;
+</p>
 
- <section class="download">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5">
-        <div class="image-container mt-n6 mb-5">
-          <img class="img-fluid" src="images/download-ebook.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="text-container d-flex flex-column text-white justify-content-center h-100 mb-5">
-          <h2 class="fw-bold">Get Your Free Ebook Now</h2>
-          <p>
-            Unlock the power of knowledge and take your blogging journey to the next level. Our ebook, "Blog Mastery : The Ultimate Guide to Blogging Success," is your key to success.
-          </p>
-          <!--form-->
-          <form action="">
-            <div class="input-group mb-3">
-              <input class="form-control" placeholder="Email Address" type="email">
-<button class="btn btn-primary text-white rounded-end">Download</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
- </section>
+</div>
+<form>
 
- <!--Social-->
-
- <section class="social text-bg-dark py-6 overflow-hidden">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 offset-md-3 text-center fs-4">
-        <p>Stay connected and join our vibrant community. For any inquiries or assistance, feel free to
-reach out to us.</p>
-<div class="social-icons d-flex justify-content-center gap-4">
-  <i class="fab fa-facebook fa-2x"></i>
-   <i class="fab fa-twitter fa-2x"></i>
-    <i class="fab fa-instagram fa-2x"></i>
-     <i class="fab fa-linkedin fa-2x"></i>
-      <i class="fab fa-pinterest fa-2x"></i>
-       
+<div class ="mb-5">
+<input type="Name" class = "form-control text-white bg-transparent rounded-0 border-muted border-top-0 border-start-0 border-end-0" placeholder="Name"/>
 </div>
 
-      </div>
-    </div>
-  </div>
- </section>
+<div class ="mb-5">
+<input type="Email" class = "form-control text-white bg-transparent rounded-0 border-muted border-top-0 border-start-0 border-end-0" placeholder="Email"/>
+</div>
 
- <footer class="border-top border-primary bg-dark text-white py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link link-light" href="index.html">Home</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link link-light" href="#details">Details</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link link-light" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <p class="text-end d-none d-md-block">
-          Copyright &copy; Blog Mastery 2024
-        </p>
-      </div>
-    </div>
-  </div>
- </footer>
+<div class ="mb-5">
+<textarea class = "form-control text-white bg-transparent rounded-0 border-muted border-top-0 border-start-0 border-end-0" placeholder="Message"></textarea>
+</div>
+<div class = "mb-5 d-grid">
+<button type = "submit" class ="btn btn-primary">Submit</button>
+</div>
+
+</form>
+</div>
+</div>
+<div class = "d-flex mt-5">
+<p class ="flex-grow-1">
+Copyright &copy; 2023 | Design By MadHatMarketing
+</p>
+<div class="hstack gap-3">
+  <a href="#">
+    <i class="fab fa-facebook fa-2x text-white"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-twitter fa-2x text-white"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-instagram fa-2x text-white"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-linkedin fa-2x text-white"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-dribble fa-2x text-white"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-facebook fa-2x text-white"></i>
+  </a>
+
+</div>
+</div>
 
 
 
-    <script
-      src="https://kit.fontawesome.com/2d21d3e291.js"
+
+</div>
+
+</section>
+
+
+
+</body>
+
+<script
+src="https://kit.fontawesome.com/2d21d3e291.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
