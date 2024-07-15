@@ -3,436 +3,465 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  
+
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="css/fontawesome.css" />
     <link rel="stylesheet" href="images/favicon.png" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Corporate Site Example</title>
+    <title>Yavin Site</title>
   </head>
   
-  <body>
-    <header class="vh-100 text-center header position-relative">
-      <div class="text-container position-relative flex-column d-flex justify-content-center align-items-center h-100">
-        <h5 class="text-primary fs-3 fw-bold text-uppercase">
-          Hello,World
-        </h5>
-        <h1 class="display-1 fw-bold text-white" id= "typing-text"></h1>
-        <p class="roles text-uppercase text-white fs-4">
-          <span>Full Stack Web Developer |</span>
-          <span>Online Educator</span>
-        </p>
-        <a class="btn btn-outline-light btn-lg mt-3" href="#about">
-          <div class="d-flex">
-            <div class="me-3">
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="text-start">
-              <span>More About Me</span>
-            </div>
-          </div>
-        </a>
-        <div class="social d-flex gap-3 position-absolute">
-          <a href="#">
-            <i class="fab fa-twitter fa-3x text-white"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram fa-3x text-white"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-linkedin fa-3x text-white"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter fa-3x text-white"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook fa-3x text-white"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-youtube fa-3x text-white"></i>
-          </a>
-             <a href="#">
-            <i class="fab fa-github fa-3x text-white"></i>
-          </a>
-        </div>
-      </div>
-    </header>
+  <body id="top" >
+  <nav class ="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container">
+   <a class ="navbar-brand" href= "#">
+    <img src="images/logo.svg" width="124" alt="">
+   </a>
+  <button type="button" class ="navbar-toggler" data-bs-toggle ="collapse" data-bs-target ="#navBarTarget">
+<span class ="navbar-toggler-icon"></span>
+</button>
 
-    <section class="about bg-light py-5" id="about">
-      <div class="container">
-        <div class="text-center">
-          <h4 class="text-uppercase fw-bold text-primary ">
-About Me
-          </h4>
-          <hr class="w-25 mx-auto"/>
-          <h2 class="mb-4">Let me introduce myself.</h2>
-        </div>
-        <div class="d-flex about-content gap-5 align-items-center h-100">
-          <img class="about-img img-fluid rounded-circle" src="images/brad.jpg" alt=""/>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, consequatur iste. Placeat quos, expedita ipsum odit fugiat, modi, soluta est eius quidem libero voluptas repudiandae id. Consectetur dolore aliquid vero perferendis ea assumenda repellat, totam ad tempore praesentium modi nam officiis laudantium a omnis voluptatum perspiciatis quibusdam non aperiam officia asperiores soluta. Vel error minima esse corrupti velit eligendi rerum illo sit, expedita eveniet enim porro quod blanditiis voluptates sed quia atque officia dolorem molestiae ad.</p>
+<div class ="collapse navbar-collapse" id ="navBarTarget">
+<ul class ="navbar-nav ms-auto">
+<li class = "nav-item">
+<a class= "nav-link" href ="#">Home</a></li>
+<li class = "nav-item">
+<a class= "nav-link" href ="#details">Details</a></li>
+<li class = "nav-item">
+<a class= "nav-link" href ="#services">Services</a></li>
+<li class = "nav-item">
+<a class= "nav-link" href ="#projects">Projects</a></li>
+<li class = "nav-item">
+  <a class= " btn btn-outline-secondary mx-lg-4 mx-0 py-2" href ="#contact">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<header class ="header position-relative mt-6 overflow-hidden">
+  <img src ="images/decoration-star.svg"  alt ="" class ="decoration-star position-absolute">
+  <img src ="images/decoration-star.svg"  alt ="" class ="decoration-star-2 position-absolute">
+  <div class="container position-relative z-3 ">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="mt-6">
+          <h1 class="xl-text">The <span class="text-primary">Perfect</span> Office Space</h1>
+          <p class="lead mb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, minima possimus quasi ipsa nesciunt cumque.
+
+          </p>
+          <a class="btn btn-lg m-2 btn-primary" href="#introduction">More Details</a>
+          <a class="btn btn-lg m-2 btn-outline-secondary" href="#contact">Contact Us</a>
         </div>
       </div>
+      <div class="col-lg-6">
+        <div class="image-container">
+          <img src="images/header.png" class="img-fluid"></img>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  </header>
+
+  <section id="stats" class ="stats container">
+    <div class ="row my-6">
+    <div class = "col-md-3 col-sm-6 text-center">
+    <h2 data-target ="328" class ="counter xl-text">328</h2>
+    <p>Happy customers</p>
+    </div>
+    <div class = "col-md-3 col-sm-6 text-center">
+      <h2 data-target ="285" class ="counter xl-text">285</h2>
+      <p>Issues Solved</p>
+      </div>
+      <div class = "col-md-3 col-sm-6 text-center">
+        <h2 data-target ="159" class ="counter xl-text">159</h2>
+        <p>Good Reviews</p>
+        </div>
+        <div class = "col-md-3 col-sm-6 text-center">
+          <h2 data-target ="128" class ="counter xl-text">128</h2>
+          <p>Case Studies</p>
+          </div>
+    </div>
     </section>
 
-    <section class="profile my-6">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class="text-uppercase fw-bold">Profile</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corrupti numquam iure, repellat a fuga nisi. Aut nam temporibus perspiciatis.</p>
-            <ul class="list-group list-group-flush">
-            <li class="list-group-item mb-3 ">
-              <h5 class="text-transform">
-                <i class="fas fa-user text-primary "></i>Full Name:
-              </h5>
-              <p>Brad Traversy</p>
-            </li>
-            <li class="list-group-item mb-3 ">
-              <h5 class="text-transform">
-                <i class="fas fa-calendar text-primary "></i>Birth Date:
-              </h5>
-              <p>June 9, 1981</p>
-            </li>
-               <li class="list-group-item mb-3 ">
-              <h5 class="text-transform">
-                <i class="fas fa-building text-primary "></i>Current Position:
-              </h5>
-              <p>Freelancer</p>
-            </li>
-             </li>
-               <li class="list-group-item mb-3 ">
-              <h5 class="text-transform">
-                <i class="fas fa-home text-primary "></i>Website:
-              </h5>
-              <p>madhatmarketing.com</p>
-            </li>
-             <li class="list-group-item mb-3 ">
-              <h5 class="text-transform">
-                <i class="fas fa-envelope text-primary "></i>Email:
-              </h5>
-              <p>support@madhatmarketing.com</p>
-            </li>
-          </ul>
+    <section id="introduction" class ="intro bg-light py-6">
+      <div class ="container">
+      <div class ="row">
+      <div class ="col-lg-8 offset-lg-2 text-center">
+      <h2> Creating <span class ="text-secondary">Unique</span></h2>
+      <p class="fs-5 w-90 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur corporis fugiat accusamus nulla adipisci, vero harum, recusandae illum ad ut delectus aperiam praesentium non soluta enim quo perferendis ullam!</p>
+      </div>
+      </div>
+      
+      </div>
+      </section>
+
+      <section id="details" class ="details position-relative my-6 overflow-hidden">
+        <img src ="images/decoration-star.svg" alt ="" class ="decoration-star position-absolute"/>
+        <div class="container position-relative z-3">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="image-container d-flex justify-content-center">
+                <img class="img-fluid" src="images/details-1.png" alt="">
+
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mt-4">
+                <h2 class="mb-4">Create a <span class="text-primary">Inspiring </span>Office Spaces</h2>
+                <ul class="list-unstyled">
+                 <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt neque eveniet iure tenetur? Debitis, vitae. Nemo, cum? Provident, blanditiis!</p>
+                 </li>
+                 <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt neque eveniet iure tenetur? Debitis, vitae. Nemo, cum? Provident, blanditiis!</p>
+                 </li>
+                 <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt neque eveniet iure tenetur? Debitis, vitae. Nemo, cum? Provident, blanditiis!</p>
+                 </li>
+                 <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt neque eveniet iure tenetur? Debitis, vitae. Nemo, cum? Provident, blanditiis!</p>
+                 </li>
+                </ul>
+                <a href ="article.html" class = "btn btn-primary" > Get Started</a>
+              </div>
+            </div>
           </div>
+        </div>
+        </section>
+
+        <section id="services" class ="services bg-light py-6">
+          <div class ="container">
+          <div class ="row">
+          <div class ="col-lg-5">
+          <div class ="text-container text-center text-lg-start">
+          <h2> <span class ="text-secondary">Services</span> that we offer</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolores, at doloremque repellat itaque cum earum assumenda incidunt mollitia voluptate hic consequatur voluptatibus perspiciatis fugiat velit, esse aperiam repellendus possimus.</p>
+          </div>
+          </div>
+          <div class ="col-lg-7">
+          <div class ="row mb-4">
+          <div class = "col-md-4 flex-column d-flex align-items-center text-center">
+          <i class ="fas fa-rocket fa-4x text-secondary mb-2"></i>
+          <p class = "fs-5 fw-bold"> Space Analysis & Planning</p>
+          </div>
+          <div class = "col-md-4 flex-column d-flex align-items-center text-center">
+          <i class ="fas fa-clock fa-4x text-secondary mb-2"></i>
+          <p class = "fs-5 fw-bold"> Design & Color Choosing</p>
           
-       
+          
+          </div>
+          <div class = "col-md-4 flex-column d-flex align-items-center text-center">
+          <i class ="fas fa-comments fa-4x text-secondary mb-2"></i>
+          <p class = "fs-5 fw-bold"> Materials & Delivery</p>
+          
+          
+          </div>
+          </div>
+          <div class="row">
+            <div class = "col-md-4 flex-column d-flex align-items-center text-center">
+              <i class ="fas fa-chart-bar fa-4x text-secondary mb-2"></i>
+              <p class = "fs-5 fw-bold"> Evaluation & Reporting</p>
+              
+              
+              </div>
+              <div class = "col-md-4 flex-column d-flex align-items-center text-center">
+                <i class ="fas fa-chart-pie fa-4x text-secondary mb-2"></i>
+                <p class = "fs-5 fw-bold"> Create A Great Atmopshere</p>
+                
+                
+                </div>
+                <div class = "col-md-4 flex-column d-flex align-items-center text-center">
+                  <i class ="fas fa-tools fa-4x text-secondary mb-2"></i>
+                  <p class = "fs-5 fw-bold">Execute The Concept</p>
+                  
+                  
+                  </div>
 
-        <div class="col-md-6">
-          <h3 class="text-uppercase fw-bold">Skills</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed nesciunt voluptate dolorum, alias iste?</p>
-          <h5><i class ="fas fa-check"></i>HTML 5</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="100" ariavaluemin ="0"
-aria-valuemax="100">
-<div class ="progress-bar"style ="width: 100%">100%</div>
-</div>
-<h5><i class ="fas fa-check"></i>CSS</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="90" ariavaluemin ="0"
-aria-valuemax="100">
-<div class ="progress-bar"style ="width: 90%">90%</div>
+            
+          </div>
+          </div>
+          </div>
+          </div>
+          </section>
 
-</div>
- <h5><i class ="fas fa-check"></i>Javascript</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="90" ariavaluemin ="0"
-aria-valuemax="90">
-<div class ="progress-bar"style ="width: 90%">90%</div>
-</div>
- <h5><i class ="fas fa-check"></i>Bootstrap</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="100" ariavaluemin ="0"
-aria-valuemax="100">
-<div class ="progress-bar"style ="width: 100%">100%</div>
-</div>
+          <section class ="details-2 position-relative  my-6 overflow-hidden">
+            <img src ="images/decoration-star.svg" class= "decoration-star position-absolute"/>
+            <div class="container  position-relative z-3">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="text-container text-center text-lg-start mb-4">
+                  <h2>Transform Your WorkPlace For Enhanced <span class="text-primary">Productivity</span></h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptas ullam veritatis fugiat maiores magni velit? Dolore mollitia veritatis consequatur!</p>
+                  <a class="btn btn-primary" href="article.html">Get Started</a>
+                </div>
+                  
+                </div>
+                <div class="col-lg-6">
+                  <div class="image-container d-flex justify-content-center">
+                    <img class="img-fluid" src="images/details-2.png" alt="">
+                  </div>
+                </div>
+              </div>
 
- <h5><i class ="fas fa-check"></i>PHP</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="70" ariavaluemin ="0"
-aria-valuemax="100">
-<div class ="progress-bar"style ="width: 70%">70%</div>
-</div>
- <h5><i class ="fas fa-check"></i>Python</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="75" ariavaluemin ="0"
-aria-valuemax="100">
-<div class ="progress-bar"style ="width: 75%">75%</div>
-</div>
+            </div>
+            </section>
 
- <h5><i class ="fas fa-check"></i>UI/UX</h5>
-          <div class ="progress mb-4" role ="progressbar" aria-valuenow ="65" ariavaluemin ="65"
-aria-valuemax="100">
-<div class ="progress-bar"style ="width: 65%">65%</div>
+            <section class ="get-quote bg-light py-6 text-center">
+              <div class ="container">
+              <div class ="row">
+              <div class ="col-lg-8 offset-lg-2">
+              <h4 class="lg-base"> Our team of highly skilled designers and interior construction workers can deliver
+              above your level of expectations</h4>
+              <a href ="#contact" class ="btn btn-lg btn-secondary">Get Quote</a>
+              </div>
+              </div>
+            </section>
+
+
+              
+         
+<section id = "projects" class ="projects py-6">
+  
+<div class ="container">
+<h2 class ="text-center pb-4">
+Some of Our <span class ="text-secondary">Projects</span>
+</h2>
+<div class ="row mb-4">
+<div class ="col-md-4">
+<div class ="card border-0">
+<img src="images/project-1.jpg" alt ="">
+<div class ="card-body">
+<h5 class ="card-title">Office space for banking</h5>
+<p class ="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus. <a href ="article.html">Read More</a></p>
 </div>
-
-        </div>
-        
-         </div>
-         <div class="row mt-5 text-center">
-<div class="col-12">
-  <a class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 mt-2" href="">hire me now</a>
-  <a class="btn btn-dark btn-lg text-uppercase px-5 mx-3 mt-2" href="">hire me now</a>
-
 </div>
-
-         </div>
+</div>
+<div class ="col-md-4">
+  <div class ="card border-0">
+  <img src="images/project-2.jpg" alt ="">
+  <div class ="card-body">
+  <h5 class ="card-title">Planning and design for Startups</h5>
+  <p class ="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus. <a href ="article.html">Read More</a></p>
+  </div>
+  </div>
+  </div>
+  <div class ="col-md-4">
+    <div class ="card border-0">
+    <img src="images/project-3.jpg" alt ="">
+    <div class ="card-body">
+    <h5 class ="card-title">Colors & Materials Update</h5>
+    <p class ="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus. <a href ="article.html">Read More</a></p>
+    </div>
+    </div>
+    </div>
+    <div class ="col-md-4">
+      
+      <div class ="card border-0">
+      <img src="images/project-4.jpg" alt ="">
+      <div class ="card-body">
+      <h5 class ="card-title">Analysis & Floor Design</h5>
+      <p class ="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus. <a href ="article.html">Read More</a></p>
       </div>
+      </div>
+      </div>
+      <div class ="col-md-4">
+        <div class ="card border-0">
+        <img src="images/project-5.jpg" alt ="">
+        <div class ="card-body">
+        <h5 class ="card-title">Office space decoration</h5>
+        <p class ="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus. <a href ="article.html">Read More</a></p>
+        </div>
+        </div>
+        </div>
+        <div class ="col-md-4">
+          <div class ="card border-0">
+          <img src="images/project-6.jpg" alt ="">
+          <div class ="card-body">
+          <h5 class ="card-title">Playground for Kindergarten</h5>
+          <p class ="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, delectus. <a href ="article.html">Read More</a></p>
+          </div>
+          </div>
+          </div>
+</div>
+</div>
+</section>
+
+<section id ="testimonials" class ="testimonials bg-light py-6">
+
+  <div id ="testimonialCarousel" class ="carousel slide">
+  
+  <div class ="carousel-inner">
+  
+  <div class = "carousel-item active">
+  
+  <div class ="d-flex flex-column justify-content-center align-items-center text-center">
+  <img src = "images/testimonial-1.jpg" alt="" class = "rounded-circle" width="120">
+  <p class = "w-50 my-4 fst-italic fs-4 mb-4">
+  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit nam iste cupiditate, veritatis iusto adipisci possimus voluptate explicabo labore harum delectus ad nisi nostrum assumenda molestias voluptatum, inventore ipsum?
+  
+  </p>
+  <div class="fw-bold fs-5 mt-4">Marlene Visconti</div>
+  <div>General Manager-Scouter</div>
+  </div>
+  
+  
+  </div>
+
+  <div class = "carousel-item">
+  
+    <div class ="d-flex flex-column justify-content-center align-items-center text-center">
+    <img src = "images/testimonial-2.jpg" alt="" class = "rounded-circle" width="120">
+    <p class = "w-50 my-4 fst-italic fs-4 mb-4">
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit nam iste cupiditate, veritatis iusto adipisci possimus voluptate explicabo labore harum delectus ad nisi nostrum assumenda molestias voluptatum, inventore ipsum?
+    
+    </p>
+    <div class="fw-bold fs-5 mt-4">John Spiker</div>
+    <div>Team Leader - Vanquish</div>
+    </div>
+    
+    
+    </div>
+
+    <div class = "carousel-item">
+  
+      <div class ="d-flex flex-column justify-content-center align-items-center text-center">
+      <img src = "images/testimonial-3.jpg" alt="" class = "rounded-circle" width="120">
+      <p class = "w-50 my-4 fst-italic fs-4 mb-4">
+      
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit nam iste cupiditate, veritatis iusto adipisci possimus voluptate explicabo labore harum delectus ad nisi nostrum assumenda molestias voluptatum, inventore ipsum?
+      
+      </p>
+      <div class="fw-bold fs-5 mt-4">Stella Virtuoso</div>
+      <div>Design Chief - Bikegirl</div>
+      </div>
+      
+      
+      </div>
+      
+    
+  
+  </div>
+  <button class ="carousel-control-prev" data-bs-slide ="prev" type = "button" data-bs-target ="#testimonialCarousel">
+    <i class = "fas fa-arrow-circle-left fa-3x text-secondary"></i>
+    
+    
+    </button>
+
+    <button class ="carousel-control-next" data-bs-slide ="next" type = "button" data-bs-target ="#testimonialCarousel">
+      <i class = "fas fa-arrow-circle-right fa-3x text-secondary"></i>
+      
+      
+      </button>
+  
+  </div>
+  
+  </section>
+
+  <section id ="contact" class ="contact my-6 position-relative">
+    <img class = "decoration-star position-absolute" src ="images/decoration-star.svg">
+    
+    <div class = "container position-relative z-3">
+    <div class ="row">
+    <div class ="col-lg-6 d-none d-md-block">
+    
+    <div class ="image-container">
+    <img src ="images/contact.png" alt ="" class = "img-fluid">
+    
+    </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="text-container">
+        <h2>Contact Us For A Quote</h2>
+        <form action="">
+
+          <div class="mb-3">
+            <input placeholder="Enter name" type="text" class="form-control" type="text"/>
+          </div>
+          <div class="mb-3">
+            <input placeholder="Enter email" type="email" class="form-control" type="text"/>
+            </div>
+            <div class="mb-3">
+            <input placeholder="Enter phone" type="text" class="form-control" type="text"/>
+          </div>
+          <div class="mb-3">
+           <textarea placeholder="Enter message" rows="8" class="form-control"></textarea>
+          </div>
+          <div class = "d-grid gap-2">
+<input type="submit" class="btn btn-primary btn-block">
+
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+    
     </section>
+    
+    <footer class ="footer bg-light py-6">
+      <div class ="container">
+      <div class ="row">
+      <div class ="col-md-4 my-3">
+      <h6>About Yavin </h6>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam doloribus tenetur quia inventore distinctio deleniti.</p>
+      </div>
+      <div class ="col-md-4 my-3">
+        <h6>Links</h6>
+        <ul class="list-unstyled">
+       <li>Important: <a href = "#">Terms & Conditions</a>,
+      <a href="#">Privacy Policy</a></li>
+      <li>Useful: <a href = "#">Icon Library</a>,
+        <a href="#">Illustrations</a></li>
+        <li>Menu: <a href = "#">Home</a>,
+          <a href="#details">Details</a>,<a href="#services">Services</a>,<a href="#contact">Contact</a></li>
 
-
-<section class ="portfolio py-5 bg-light">
-<div class ="container">
-<div class = "text-center mb-5">
-<h4 class ="text-uppercase fw-bold text-primary">Portfolio</h4>
-
-<hr class="w-25 mx-auto"/>
-<h2 class ="mb-4">Check Out My Work</h2>
-<p class ="lead">Here is a small sample of my projects </p>
-</div>
-<div class="row">
-<div class="col-md-6 mb-4">
-  <div class="project  shadow-lg rounded-5">
-    <a data-title ="Clipboard Landing Page" data-lightbox ="images" href="images/project1.jpg">
-      <img class="img-fluid rounded-3" src="images/project1.jpg" alt="">
-    </a>
-  </div>
-
-</div>
-<div class="col-md-6 mb-4">
-  <div class="project  shadow-lg rounded-5">
-    <a data-title ="Loop Studios Website" data-lightbox ="images" href="images/project2.jpg">
-      <img class="img-fluid rounded-3" src="images/project2.jpg" alt="">
-    </a>
-  </div>
-
-</div>
-<div class="col-md-6 mb-4">
-  <div class="project  shadow-lg rounded-5">
-    <a data-title ="Shortly Website" data-lightbox ="images" href="images/project3.jpg">
-      <img class="img-fluid rounded-3" src="images/project3.jpg" alt="">
-    </a>
-  </div>
-
-</div>
-<div class="col-md-6 mb-4">
-  <div class="project shadow-lg rounded-5">
-    <a data-title ="Flyo Website" data-lightbox ="images" href="images/project4.jpg">
-      <img class="img-fluid rounded-3" src="images/project4.jpg" alt="">
-    </a>
-  </div>
-
-</div>
-<div class="col-md-6 mb-4">
-  <div class="project shadow-lg rounded-5">
-    <a data-title ="Bookmark Website" data-lightbox ="images" href="images/project5.jpg">
-      <img class="img-fluid rounded-3" src="images/project5.jpg" alt="">
-    </a>
-  </div>
-
-</div>
-<div class="col-md-6 mb-4">
-  <div class="project shadow-lg rounded-5">
-    <a data-title ="Grid Layout" data-lightbox ="images" href="images/project6.jpg">
-      <img class="img-fluid rounded-3" src="images/project6.jpg" alt="">
-    </a>
-  </div>
-
-</div>
-</div>
-</div>
-</section>
-
-<section class= "styleshout text-bg-dark bg-gradient p-6 text-center">
-<div class ="container">
-<div class ="row">
-<div class ="col-12">
-<h1> Shoutout to StyleShout</h1>
-<hr class = "w-25 mx-auto"/>
-<p class ="lead mb-5">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quo exercitationem rem id necessitatibus dolorum ipsum nihil delectus? Corporis, sint.
-</p>
-<a target="_blank" class="btn btn-primary btn-lg text-uppercase px-5 mx-4 my-2" href="https://www.madhatmarketing.com">Visit Site</a>
-
-</div>
-</div>
-</div>
-</section>
-
-<section class ="services text-bg-dark py-5 position-relative">
-<div class ="container">
-
-<div class ="text-center mb-5">
-<h4 class ="text-uppercase fw-bold text-primary">
-Services
-</h4>
-<hr class = "w-25 mx-auto"/>
-<h2 class ="mb-4"> What Can I Do For You> </h2>
-<p class ="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis, exercitationem labore amet unde est? </p>
-
-</div>
-
-<div class ="row">
-<div class="col-md-4 text-center">
-
-  <i class="fas fa-globe fa-3x text-primary mb-3"></i>
-  <h3 class="fs-3">Web Design</h3>
-  <hr class="w-25 mx-auto"/>
-  <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque, fuga repellendus dolorem recusandae inventore beatae quia rem animi eos!</p>
-</div>
-
-<div class="col-md-4 text-center">
-
-  <i class="fas fa-code fa-3x text-primary mb-3"></i>
-  <h3 class="fs-3">Web Development</h3>
-  <hr class="w-25 mx-auto"/>
-  <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque, fuga repellendus dolorem recusandae inventore beatae quia rem animi eos!</p>
-</div>
-<div class="col-md-4 text-center">
-
-  <i class="fas fa-shopping-cart fa-3x text-primary mb-3"></i>
-  <h3 class="fs-3">Advertising & SEO</h3>
-  <hr class="w-25 mx-auto"/>
-  <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque, fuga repellendus dolorem recusandae inventore beatae quia rem animi eos!</p>
-</div>
-</div>
-
-
-
-</div>
-
-</section>
-
-<section class="stats py-5 text-bg-secondary">
-<div class ="container">
-<div class ="row g-0">
-
-<div class = "col-md-4 col-lg-2">
-<div class ="stat text-center border-end border-dark">
-<i class = "fas fa-users fa-3x mb-3"></i>
-<p class ="fs-1">500+</p>
-<h3 class = "fs-6 text-uppercase">Clients</h3>
-
-</div>
-</div>
-<div class = "col-md-4 col-lg-2">
-<div class ="stat text-center border-end border-dark">
-<i class = "fas fa-project-diagram fa-3x mb-3"></i>
-<p class ="fs-1">700+</p>
-<h3 class = "fs-6 text-uppercase">Project</h3>
-
-</div>
-</div>
-<div class = "col-md-4 col-lg-2">
-<div class ="stat text-center border-end border-dark">
-<i class = "fas fa-clock fa-3x mb-3"></i>
-<p class ="fs-1">16+</p>
-<h3 class = "fs-6 text-uppercase">Years</h3>
-
-</div>
-</div>
-<div class = "col-md-4 col-lg-2">
-<div class ="stat text-center border-end border-dark">
-<i class = "fas fa-book fa-3x mb-3"></i>
-<p class ="fs-1">25+</p>
-<h3 class = "fs-6 text-uppercase">Publications</h3>
-
-</div>
-</div>
-<div class = "col-md-4 col-lg-2">
-<div class ="stat text-center border-end border-dark">
-<i class = "fas fa-youtube fa-3x mb-3"></i>
-<p class ="fs-1">2.06M+</p>
-<h3 class = "fs-6 text-uppercase">Subscribers</h3>
-
-</div>
-</div>
-<div class = "col-md-4 col-lg-2">
-<div class ="stat text-center border-end border-dark">
-<i class = "fas fa-graduation-cap fa-3x mb-3"></i>
-<p class ="fs-1">1m+</p>
-<h3 class = "fs-6 text-uppercase">Students</h3>
-
-</div>
-</div>
-
-</div>
-</div>
-</section>
-
-<section class="contact text-bg-dark bg-gradient py-5">
-<div class ="container">
-<div class ="row">
-<div class= "col-md-8 offset-md-2">
-<div class ="text-center mb-5">
-<h4 class ="text-uppercase fw-bold text-primary">Contact</h4>
-<hr class ="w-25 mx-auto"/>
-<h2 class ="mb-4">I'd love to hear from you.</h2>
-<p class ="lead">
-If you have any questions or would like to work together, please contact me
-with the form below;
-</p>
-
-</div>
-<form>
-
-<div class ="mb-5">
-<input type="Name" class = "form-control text-white bg-transparent rounded-0 border-muted border-top-0 border-start-0 border-end-0" placeholder="Name"/>
-</div>
-
-<div class ="mb-5">
-<input type="Email" class = "form-control text-white bg-transparent rounded-0 border-muted border-top-0 border-start-0 border-end-0" placeholder="Email"/>
-</div>
-
-<div class ="mb-5">
-<textarea class = "form-control text-white bg-transparent rounded-0 border-muted border-top-0 border-start-0 border-end-0" placeholder="Message"></textarea>
-</div>
-<div class = "mb-5 d-grid">
-<button type = "submit" class ="btn btn-primary">Submit</button>
-</div>
-
-</form>
-</div>
-</div>
-<div class = "d-flex mt-5">
-<p class ="flex-grow-1">
-Copyright &copy; 2023 | Design By MadHatMarketing
-</p>
-<div class="hstack gap-3">
-  <a href="#">
-    <i class="fab fa-facebook fa-2x text-white"></i>
+        </ul>
+        </div>
+        <div class ="col-md-4 my-3">
+          <div class ="mb-4">
+          <a class="text-decoration-none" href ="#">
+          <i class = "fab fa-facebook fa-3x text-dark mx-2"></i>
+          </a>
+          <a class="text-decoration-none" href ="#">
+            <i class = "fab fa-twitter fa-3x text-dark mx-2"></i>
+            </a>
+            <a class="text-decoration-none" href ="#">
+              <i class = "fab fa-instagram fa-3x text-dark mx-2"></i>
+              </a>
+              <a class="text-decoration-none" href ="#">
+                <i class = "fab fa-pinterest fa-3x text-dark mx-2"></i>
+                </a>
+          </div>
+          <p>We would love to hear from you <a href ="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+          </div>
+      </div>
+      </div>
+      </footer>
+      
+      <a href="#top"><button id ="to-top" class = "to-top-btn">
+        <img src ="images/up-arrow.png" alt =""/>
+        </button>
   </a>
-  <a href="#">
-    <i class="fab fa-twitter fa-2x text-white"></i>
-  </a>
-  <a href="#">
-    <i class="fab fa-instagram fa-2x text-white"></i>
-  </a>
-  <a href="#">
-    <i class="fab fa-linkedin fa-2x text-white"></i>
-  </a>
-  <a href="#">
-    <i class="fab fa-dribble fa-2x text-white"></i>
-  </a>
-  <a href="#">
-    <i class="fab fa-facebook fa-2x text-white"></i>
-  </a>
-
-</div>
-</div>
-
-
-
-
-</div>
-
-</section>
-
-
-
+              
 </body>
 
 <script
